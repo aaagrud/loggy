@@ -1,0 +1,80 @@
+/* Base Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #001d00; /* Dark green background */
+    color: #e0f7e0; /* Light neon green text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #00ff00; /* Bright neon green */
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  a {
+    color: #00ff00; /* Bright neon green */
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #00ff00; /* Underline effect */
+    border-left: 200px;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  
+  a:hover {
+    color: #003300; /* Darker green for hover effect */
+    border-bottom: 2px solid #003300;
+  }
+  
+  /* Centering the link */
+  a.centered {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    display: block; /* Ensure it's treated as a block element for centering */
+  }
+  
+  /* Form Styles */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #003300; /* Darker green background */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Neon green glow */
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00ff00; /* Neon green border */
+    border-radius: 8px;
+    background: #001d00; /* Dark green background */
+    color: #e0f7e0; /* Light neon green text */
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #00ff00; /* Bright neon green */
+    color: #001d00; /* Dark green text */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #003300; /* Darker green for hover effect */
+    color: #00ff00;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Form with CSRF Protection</h1>
+  <form action="/submit" method="POST">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <input type="text" name="data" placeholder="Enter some data">
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
